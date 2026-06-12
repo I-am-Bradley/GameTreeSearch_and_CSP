@@ -81,14 +81,3 @@ You will be prompted to choose:
 The full project report is included as:
 
 **Project Report.docx**
-
-
----
-
-## 🔗 Quick Navigation
-- **[Alpha‑Beta README](ca://s?q=open_alpha_beta_readme)**
-- **[MCTS‑Random README](ca://s?q=open_mcts_random_readme)**
-- **[MCTS‑Smart README](ca://s?q=open_mcts_smart_readme)**
-- **[Sudoku CSP README](ca://s?q=open_sudoku_csp_readme)**
-
-
