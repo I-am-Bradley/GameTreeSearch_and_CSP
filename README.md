@@ -27,18 +27,16 @@ Project2/
 │   │   ├── mcts_smart_log_(C1.41).txt  
 │   │   ├── mcts_smart_log_(C2).txt  
 │   │  
-│   ├── results/  
-│   │   ├── screenshots/               # all terminal screenshots you uploaded  
-│   │   │   ├── AB_computer_winning.png  
-│   │   │   ├── AB_Human_winning.png  
-│   │   │   ├── MCTS_-random_Human_winning.png  
-│   │   │   ├── MCTS-smart_Agent_winning.png  
-│   │   │   └── MCTS-smart_human_winning.png  
-│   │   ├── plots/                     # performance charts (inference, MRV, LCV)  
+│   ├── results (screenshots)/  
+│   │   ├── AB_computer_winning.png  
+│   │   ├── AB_Human_winning.png  
+│   │   ├── MCTS_-random_Human_winning.png  
+│   │   ├── MCTS-smart_Agent_winning.png  
+│   │   └── MCTS-smart_human_winning.png   
 │   │  
 │   ├── data/  
-│   │   └── connect4 website.txt       # reference link  
-  
+│   |   └── connect4 website.txt       # reference link  
+|   |
 │   └── report/  
 │       └── CS Project 2 Report.docx  
 │  
@@ -52,12 +50,12 @@ Project2/
 │   │    └── CS Project 2 Report.docx   # same report or separate if needed  
 │   │
 │   └── results (performance_plots)/  
-│       ├── Comparison - Inf - FC vs MAC - for 9x9 40 empty.png  
-│       ├── Comparison - Inf - FC vs MAC - for 9x9 60 empty.png
-│       ├── Comparison - Random vs MRV - for 9x9 40 empty.png  
-│       ├── Comparison - Value Selection - Standard Order vs LCV - for 9x9 40 empty.png 
-│       └── Comparison - Value Selection - Standard Order vs LCV - for 9x9 60 empty.png  
-|
+│   |   ├── Comparison - Inf - FC vs MAC - for 9x9 40 empty.png  
+│   |   ├── Comparison - Inf - FC vs MAC - for 9x9 60 empty.png
+│   |   ├── Comparison - Random vs MRV - for 9x9 40 empty.png  
+│   |   ├── Comparison - Value Selection - Standard Order vs LCV - for 9x9 40 empty.png 
+│   |   └── Comparison - Value Selection - Standard Order vs LCV - for 9x9 60 empty.png  
+|   |
 └── LICENSE (optional)  
 
 
