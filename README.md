@@ -51,11 +51,11 @@ Project2/
 │   │
 │   └── results (performance_plots)/  
 │   |   ├── Comparison - Inf - FC vs MAC - for 9x9 40 empty.png  
-│   |   ├── Comparison - Inf - FC vs MAC - for 9x9 60 empty.png
+│   |   ├── Comparison - Inf - FC vs MAC - for 9x9 60 empty.png  
 │   |   ├── Comparison - Random vs MRV - for 9x9 40 empty.png  
-│   |   ├── Comparison - Value Selection - Standard Order vs LCV - for 9x9 40 empty.png 
+│   |   ├── Comparison - Value Selection - Standard Order vs LCV - for 9x9 40 empty.png  
 │   |   └── Comparison - Value Selection - Standard Order vs LCV - for 9x9 60 empty.png  
-|   |
+|   |  
 └── LICENSE (optional)  
 
 
