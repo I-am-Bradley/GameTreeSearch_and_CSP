@@ -1,4 +1,4 @@
-# GameTreeSearch and CSP
+# Game Tree Search and CSP
 ### Connect‑4 AI (Alpha‑Beta & MCTS) + Sudoku CSP Solver  
 Author: Bradley Titagwan
 
