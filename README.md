@@ -82,3 +82,8 @@ You will be prompted to choose:
 The full project report is included as:
 
 **Project Report.docx**
+
+---
+
+## Author
+**Titagwan Bradley** 
