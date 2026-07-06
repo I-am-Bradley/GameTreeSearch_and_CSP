@@ -3,7 +3,7 @@
 ## 🧭 Project Overview
 
 ### Title:
-Game Tree Search and Constraint Satisfaction
+### Game Tree Search and Constraint Satisfaction
 
 ### Purpose
 
