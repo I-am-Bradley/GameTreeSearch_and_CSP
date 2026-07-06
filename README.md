@@ -1,89 +1,223 @@
-# Game Tree Search and CSP
-### Connect‑4 AI (Alpha‑Beta & MCTS) + Sudoku CSP Solver  
-Author: Bradley Titagwan
+# Game Tree Search and Constraint Satisfaction
 
-This repository contains my full implementation for Project 2, covering:
+## 🧭 Project Overview
 
-- **Connect‑4 AI using Alpha‑Beta Pruning**
-- **Monte Carlo Tree Search (Random & Smart Playouts)**
-- **Sudoku Solver using CSP + Backtracking + Heuristics**
+### Title:
+Game Tree Search and Constraint Satisfaction
 
-All results, logs, and plots referenced in the report are included in their respective folders.
+### Purpose
 
----
+This repository contains implementations of classical Artificial Intelligence search algorithms applied to adversarial game playing and constraint satisfaction problems. The project explores game tree search techniques for Connect-4 and Constraint Satisfaction Problem (CSP) algorithms for solving Sudoku puzzles while comparing algorithm performance, heuristics, and optimization strategies.
 
-## 📁 Repository Structure
+### Audience
 
-Project2/  
-│  
-├── README.md  
-│  
-├── Task1_Connect4/                
-│   ├── name it connect4_Bradley_Titagwan.py              
-│   │
-│   ├── logs/  
-│   │   ├── ab_depth_timeline.csv  
-│   │   ├── mcts_random_log.txt        # too large to load, but include in repo  
-│   │   ├── mcts_smart_log_(C1.41).txt  
-│   │   ├── mcts_smart_log_(C2).txt  
-│   │  
-│   ├── results (screenshots)/  
-│   │   ├── AB_computer_winning.png  
-│   │   ├── AB_Human_winning.png  
-│   │   ├── MCTS_-random_Human_winning.png  
-│   │   ├── MCTS-smart_Agent_winning.png  
-│   │   └── MCTS-smart_human_winning.png   
-│   │  
-│   ├── data/  
-│   |   └── connect4 website.txt       # reference link  
-|   |
-│   └── report/  
-│       └── CS Project 2 Report.docx  
-│  
-├── Task2_Sudoku/  
-│   ├── sudoku_solver_Bradley_Titagwan.py               # your solver (placeholder)  
-│   │  
-│   ├── puzzles/  
-│   │   └── sudoku.json                # the 16×16 puzzle you uploaded  
-│   │  
-│   ├──  report/  
-│   │    └── CS Project 2 Report.docx   # same report or separate if needed  
-│   │
-│   └── results (performance_plots)/  
-│   |   ├── Comparison - Inf - FC vs MAC - for 9x9 40 empty.png  
-│   |   ├── Comparison - Inf - FC vs MAC - for 9x9 60 empty.png  
-│   |   ├── Comparison - Random vs MRV - for 9x9 40 empty.png  
-│   |   ├── Comparison - Value Selection - Standard Order vs LCV - for 9x9 40 empty.png  
-│   |   └── Comparison - Value Selection - Standard Order vs LCV - for 9x9 60 empty.png  
-|   |  
-└── LICENSE (optional)  
-
+- Artificial Intelligence Students
+- Computer Science Students
+- Researchers
+- Software Engineers
+- Machine Learning Enthusiasts
 
 ---
 
-## 🚀 How to Run
+# 🧱 Project Scope
 
-### **Connect‑4 Agents**
+## Task 1: Connect-4 AI
 
-**"python connect4_game.py"**
+Implements intelligent game-playing agents capable of competing against human players using adversarial search and Monte Carlo simulations.
 
-You will be prompted to choose:
-- Human vs Alpha‑Beta  
-- Human vs MCTS‑Random  
-- Human vs MCTS‑Smart  
+### Components
 
-### **Sudoku Solver**
+- Connect-4 Game Engine
+- Alpha-Beta Search Agent
+- Monte Carlo Tree Search Agent
+- Performance Logging
+- Gameplay Visualization
 
-**"python sudoku_csp/sudoku_solver.py"**
+### Techniques
+
+- Minimax Search
+- Alpha-Beta Pruning
+- Monte Carlo Tree Search (MCTS)
+- Random Playouts
+- Smart Playouts
+- Adversarial Search
 
 ---
 
-## 📄 Documentation
-The full project report is included as:
+## Task 2: Sudoku Constraint Satisfaction
 
-**Project Report.docx**
+Implements a Constraint Satisfaction Problem (CSP) solver capable of solving Sudoku puzzles using multiple inference and heuristic strategies.
+
+### Components
+
+- Sudoku CSP Solver
+- Puzzle Loader
+- Constraint Propagation
+- Performance Evaluation
+- Visualization
+
+### Techniques
+
+- Constraint Satisfaction Problems (CSP)
+- Backtracking Search
+- Forward Checking (FC)
+- Maintaining Arc Consistency (MAC)
+- Minimum Remaining Values (MRV)
+- Least Constraining Value (LCV)
 
 ---
 
-## Author
-**Titagwan Bradley** 
+# 📂 Repository Structure
+
+```text
+GameTreeSearch_and_CSP/
+│
+│
+├── Task1_Connect4/
+│   ├── Logs/
+│   │   ├── ab_depth_timeline.txt
+│   │   ├── mcts_random_log.txt
+│   │   ├── mcts_smart_log (C = 1.41).txt
+│   │   └── mcts_smart_log (C=2).txt
+│   ├── data/
+│   │   └── connect4 website.txt
+│   ├── report/
+│   │   └── Project Report.docx
+│   ├── results (screenshots)/
+│   │   ├── AB_Human_winning.png
+│   │   ├── AB_computer_winning.png
+│   │   ├── MCTS -random_Human_winning.png
+│   │   ├── MCTS-smart_Agent_winning.png
+│   │   └── MCTS-smart_human_winning.png
+│   └── name it connect4_Bradley_Titagwan.py
+│
+├── Task2_Sudoku/
+│   ├── puzzles
+│   │   └── sudoku.json
+│   ├── report
+│   │   └── Project Report.docx
+│   ├── results (performance_plots)
+│   │   ├──Comparison - Inf - FC vs MAC - for 9x9 40 empty.png
+│   │   ├──Comparison - Inf - FC vs MAC - for 9x9 60 empty.png
+│   │   ├──Comparison - Random vs MRV - for 9x9 40 empty.png
+│   │   ├──Comparison - Value Selection - Standard Order vs LCV - for 9x9 40 empty.png
+│   │   └──Comparison - Value Selection - Standard Order vs LCV - for 9x9 60 empty.png
+│   └── Sudoku_Solver_Bradley_Titagwan.py
+│
+└── README.md
+
+```
+
+---
+
+# 🤖 Algorithms Included
+
+| Task | Algorithm | Purpose |
+|------|-----------|----------|
+| Connect-4 | Minimax | Decision-making for adversarial game play |
+| Connect-4 | Alpha-Beta Pruning | Optimizes Minimax search by pruning unnecessary branches |
+| Connect-4 | Monte Carlo Tree Search (MCTS) | Uses probabilistic simulations to determine optimal moves |
+| Sudoku | Backtracking Search | Systematically searches for valid puzzle solutions |
+| Sudoku | Forward Checking | Eliminates invalid variable assignments early |
+| Sudoku | Maintaining Arc Consistency (MAC) | Maintains consistency among constraints during search |
+| Sudoku | MRV & LCV Heuristics | Improves search efficiency through variable and value ordering |
+
+---
+
+# 📊 Results Summary
+
+## Connect-4
+
+- Compared Alpha-Beta Pruning against Monte Carlo Tree Search.
+- Evaluated Random and Smart MCTS playout strategies.
+- Recorded gameplay logs and generated performance visualizations.
+- Demonstrated the effectiveness of heuristic search in adversarial game environments.
+
+## Sudoku
+
+- Solved Sudoku puzzles using Constraint Satisfaction techniques.
+- Compared Forward Checking and Maintaining Arc Consistency.
+- Evaluated the effects of MRV and LCV heuristics on search efficiency.
+- Generated performance plots illustrating runtime improvements and heuristic effectiveness.
+
+---
+
+# 🚀 How to Run
+
+## Task 1 — Connect-4
+
+Run the Connect-4 game:
+
+```bash
+python connect4_Bradley_Titagwan.py
+```
+
+Select one of the available game modes:
+
+- Human vs. Alpha-Beta
+- Human vs. MCTS (Random Playouts)
+- Human vs. MCTS (Smart Playouts)
+
+---
+
+## Task 2 — Sudoku Solver
+
+Run the Sudoku solver:
+
+```bash
+python sudoku_solver_Bradley_Titagwan.py
+```
+
+The program loads the provided Sudoku puzzle and solves it using Constraint Satisfaction algorithms and configurable heuristics.
+
+---
+
+# 💻 Skills Demonstrated
+
+- Artificial Intelligence
+- Adversarial Search
+- Game Tree Search
+- Minimax
+- Alpha-Beta Pruning
+- Monte Carlo Tree Search
+- Constraint Satisfaction Problems (CSP)
+- Backtracking Algorithms
+- Forward Checking
+- Arc Consistency (MAC)
+- Heuristic Design
+- Algorithm Analysis
+- Performance Benchmarking
+- Python
+
+---
+
+# 📈 Future Improvements
+
+- Implement iterative deepening for Alpha-Beta Search
+- Parallelize Monte Carlo Tree Search simulations
+- Add transposition tables for game search optimization
+- Expand Sudoku support to additional puzzle sizes
+- Compare CSP techniques with SAT-based Sudoku solvers
+
+---
+
+# 📄 Documentation
+
+The repository includes:
+
+- Source Code
+- Gameplay Logs
+- Performance Plots
+- Solver Visualizations
+- Project Report
+
+The complete report can be found in each task's **report/** directory.
+
+---
+
+# 📬 Author
+
+**Bradley Titagwan**
+
+Version: v1.0
+```
